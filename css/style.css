@@ -71,6 +71,10 @@ form {
   padding-bottom: 10px;
 }
 
+.inputfield textarea {
+  width: 100%;
+}
+
 li label {
   padding-left: 5px;
 }
