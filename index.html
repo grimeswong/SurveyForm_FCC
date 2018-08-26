@@ -14,38 +14,38 @@
     <section id="survey-form">
       <div id="description">Let us know what types of games you prefer!!!</div>
       <form action="">
-        <div class="label">
+        <div class="label grid-item">
           <label for="name" id="name-label">Your Name:</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <input type="text" id="name" name="name" placeholder="Your Name">
         </div>
-        <div class="label">
+        <div class="label grid-item">
           <label for="email" id="email-label">Email:</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <input type="email" id="email" name="email" placeholder="Your Email">
         </div>
-        <div class="label">
+        <div class="label grid-item">
           <label for="age" id="number-label">Age:</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <input type="number" id="number" min="4" max="150" name="age"placeholder="Your Age">
         </div>
-        <div class="label">
+        <div class="label grid-item">
           <label for="gender" id="gender-label">Gender:</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <ul>
             <li><input type="radio" name="gender" value="Male"><label for="gender">Male</label></li>
             <li><input type="radio" name="gender" value="Female"><label for="gender">Female</label></li>
             <li><input type="radio" name="gender" value="NotProvided" checked><label for="gender">Prefer not to say</label></li>
           </ul>
         </div>
-        <div class="label">
+        <div class="label grid-item">
           <label for="status" id="status-label">Current Employment Status:</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <select id="dropdown" name="status">
             <option selected disabled value="">Please select one of the options</option>
             <option value="Student">Student</option>
@@ -56,10 +56,10 @@
             <option value="NotProvided">Prefer not to say</option>
           </select>
         </div>
-        <div class="label">
+        <div class="label grid-item">
           <label for="game-type" id="game-type-label">Game Type Preference(s)</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <ul>
             <li><input type="checkbox" id="game-type" name="game-type" value="Sport"><label for="game-type">Sport</label></li>
             <li><input type="checkbox" id="game-type" name="game-type" value="Adverture"><label for="game-type">Adverture</label></li>
@@ -70,10 +70,10 @@
             <li><input type="checkbox" id="game-type" name="game-type" value="Educational"><label for="game-type">Educational</label></li>
           </ul>
         </div>
-        <div class="label">
+        <div class="label grid-item">
           <label for="comment" id="comment-label">Why you choose your games type(s)</label>
         </div>
-        <div class="inputfield">
+        <div class="inputfield grid-item">
           <textarea name="comment" rows="8"></textarea>
         </div>
         <button id="submit" type="submit">Submit Form</button>
