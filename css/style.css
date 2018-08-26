@@ -31,7 +31,6 @@ main {
   border-radius: 10px;
   font-size: 1em;
   font-family: Roboto, sans-serif;
-  /* font-weight: bold; */
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -55,8 +54,10 @@ form {
   grid-row-gap: 20px;
 }
 
+
 .label {
   text-align: right;
+  font-weight: bold;
 }
 
 .label-align {
