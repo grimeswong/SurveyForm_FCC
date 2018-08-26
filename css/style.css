@@ -62,3 +62,15 @@ form {
 .inputfield {
   text-align: left;
 }
+
+.inputfield ul{
+  list-style: none;
+}
+
+.inputfield ul li {
+  padding-bottom: 10px;
+}
+
+li label {
+  padding-left: 5px;
+}
