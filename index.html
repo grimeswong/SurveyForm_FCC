@@ -33,6 +33,16 @@
           <input type="number" id="number" min="4" max="150" name="age"placeholder="Your Age">
         </div>
         <div class="label">
+          <label for="gender" id="gender-label">Gender:</label>
+        </div>
+        <div class="inputfield">
+          <ul>
+            <li><input type="radio" name="gender" value="Male"><label for="gender">Male</label></li>
+            <li><input type="radio" name="gender" value="Female"><label for="gender">Female</label></li>
+            <li><input type="radio" name="gender" value="NotProvided" checked><label for="gender">Prefer not to say</label></li>
+          </ul>
+        </div>
+        <div class="label">
           <label for="" id="status-label">Current Employment Status:</label>
         </div>
         <div class="inputfield">
@@ -43,9 +53,8 @@
             <option value="Part-time">Part-time</option>
             <option value="Casual">Casual</option>
             <option value="Other">Other</option>
-            <option value="NotProvided">Prefer Not to Say</option>
+            <option value="NotProvided">Prefer not to say</option>
         </div>
-        
       </form>
     </section>
   </main>
