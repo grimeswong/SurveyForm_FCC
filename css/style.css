@@ -45,3 +45,10 @@ main {
   font-size: 1.5em;
   font-family: "Bree Serif",serif;
 }
+
+form {
+  margin: 0 auto;
+  display: grid;
+  width: 80%;
+  grid-template-areas:'label inputfield';
+}
