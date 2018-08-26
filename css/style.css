@@ -71,6 +71,7 @@ form {
   width: 100%;
   height: 30px;
   padding: 5px;
+  font-size: 0.8em;
   border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
 }
@@ -78,7 +79,7 @@ form {
 .inputfield > select {
   width: 100%;
   height: 30px;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .inputfield ul{
