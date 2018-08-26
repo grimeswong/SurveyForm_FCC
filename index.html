@@ -27,7 +27,7 @@
           <input type="email" id="email" name="email" placeholder="Your Email">
         </div>
         <div class="label">
-          <label for="" id="number-label">Age:</label>
+          <label for="age" id="number-label">Age:</label>
         </div>
         <div class="inputfield">
           <input type="number" id="number" min="4" max="150" name="age"placeholder="Your Age">
@@ -43,7 +43,7 @@
           </ul>
         </div>
         <div class="label">
-          <label for="" id="status-label">Current Employment Status:</label>
+          <label for="status" id="status-label">Current Employment Status:</label>
         </div>
         <div class="inputfield">
           <select id="dropdown" name="status">
@@ -54,6 +54,21 @@
             <option value="Casual">Casual</option>
             <option value="Other">Other</option>
             <option value="NotProvided">Prefer not to say</option>
+          </select>
+        </div>
+        <div class="label">
+          <label for="game-type" id="game-type-label">Game Type Preference(s)</label>
+        </div>
+        <div class="inputfield">
+          <ul>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Sport"><label for="game-type">Sport</label></li>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Adverture"><label for="game-type">Adverture</label></li>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Action"><label for="game-type">Action</label></li>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Role-Playing"><label for="game-type">RPG</label></li>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Simulations"><label for="game-type">Simulations</label></li>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Puzzle"><label for="game-type">Puzzle</label></li>
+            <li><input type="checkbox" id="game-type" name="game-type" value="Educational"><label for="game-type">Educational</label></li>
+          </ul>
         </div>
       </form>
     </section>
