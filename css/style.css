@@ -39,6 +39,14 @@ main {
   }
 }
 
+@media (max-width: 767px) {
+  #form-section {
+    padding:0;
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+
 #description {
   padding: 20px;
   font-size: 1.5em;
@@ -52,6 +60,13 @@ form {
   grid-template-columns: 50% 50%;
   grid-column-gap: 10px;
   grid-row-gap: 20px;
+}
+
+@media (max-width: 767px) {
+  form {
+    margin: 0 auto;
+    width: 90%;
+  }
 }
 
 
