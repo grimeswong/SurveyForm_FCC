@@ -27,12 +27,25 @@
           <input type="email" id="email" name="email" placeholder="Your Email">
         </div>
         <div class="label">
-          <label for="age" id="number-label">Age:</label>
+          <label for="" id="number-label">Age:</label>
         </div>
         <div class="inputfield">
-          <input type="number" id="number" min="4" max="150" placeholder="Your Age">
+          <input type="number" id="number" min="4" max="150" name="age"placeholder="Your Age">
         </div>
-
+        <div class="label">
+          <label for="" id="status-label">Current Employment Status:</label>
+        </div>
+        <div class="inputfield">
+          <select id="dropdown" name="status">
+            <option selected disabled value="">Please select one of the options</option>
+            <option value="Student">Student</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Casual">Casual</option>
+            <option value="Other">Other</option>
+            <option value="NotProvided">Prefer Not to Say</option>
+        </div>
+        
       </form>
     </section>
   </main>
