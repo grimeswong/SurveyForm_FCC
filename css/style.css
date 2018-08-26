@@ -51,4 +51,14 @@ form {
   display: grid;
   width: 80%;
   grid-template-areas:'label inputfield';
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.label {
+  text-align: right;
+}
+
+.inputfield {
+  text-align: left;
 }
