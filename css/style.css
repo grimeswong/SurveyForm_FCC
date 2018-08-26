@@ -79,11 +79,14 @@ li label {
   padding-left: 5px;
 }
 
-/* #submit {
+#submit {
   grid-column: 1 / span 2;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px;
   width: 150px;
   text-align: center;
-
-} */
+  font-size: 1em;
+  color: rgb(251, 254, 253);
+  background-color: rgb(43, 99, 244);
+  border-radius: 5px;
+}
